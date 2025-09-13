@@ -1,0 +1,179 @@
+/**************************** RESET ***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+/**************************** CSS FORSIDE START ***************************/
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(175, 146, 105);
+  box-shadow: 0 10px 10px rgba(47, 37, 25, 0.2);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+}
+
+.menu li {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: rgba(47, 37, 25);
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid rgb(47, 37, 25);
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+/**************************** CSS FORSIDE SLUT ***************************/
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: rgb(47, 37, 25);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h2,
+h3 {
+  font-family: "Roboto condensed";
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(47, 37, 25);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+p,
+dl,
+dd,
+dt,
+ul,
+:link {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-wrap: pretty;
+  padding-bottom: 10px;
+}
+
+.min_computer_link {
+  display: flex;
+  color: rgb(47, 37, 25);
+  background-color: rgb(175, 146, 105);
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 20px;
+  width: 50%;
+  border: 2px solid rgb(47, 37, 25);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgb(111, 101, 86);
+}
+
+.min_computer_link:hover {
+  background-color: rgba(47, 37, 25, 0.855);
+  color: beige;
+}
+
+dl {
+  border: 2px solid rgb(175, 146, 105);
+  border-radius: 12px;
+  font-size: 1em;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+dl > dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1rem;
+}
+ul#specifikationer {
+  border: 2px solid rgb(175, 146, 105);
+  border-radius: 12px;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+  background-color: rgb(175, 146, 105);
+  box-shadow: 2px 2px 4px 4px rgba(47, 37, 25, 0.2);
+}
